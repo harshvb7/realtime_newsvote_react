@@ -2,12 +2,14 @@ var gulp = require('gulp'),
     connect = require('gulp-connect'),
     open = require('gulp-open'),
     browserify = require('gulp-browserify'),
+    plumber = require('gulp-plumber'),
     concat = require('gulp-concat');
     // process = process.env.port || 3031;
 
 
 gulp.task('browserify', function () {
-    gulp.src('src/js/components/main.js')
+    gulp.src('src/js/main.js')
+    .pipe(plumber())
     .pipe(browserify({transform: 'reactify'}))
     .pipe(gulp.dest('dist/js'));
 });

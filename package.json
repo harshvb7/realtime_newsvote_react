@@ -17,12 +17,14 @@
   },
   "homepage": "https://github.com/harshvb7/realtime_newsvote_react#readme",
   "devDependencies": {
+    "firebase": "^2.3.2",
     "gulp": "^3.9.0",
     "gulp-browserify": "^0.5.1",
     "gulp-concat": "^2.6.0",
     "gulp-connect": "^2.3.1",
     "gulp-open": "^1.0.0",
     "gulp-react": "^3.1.0",
+    "lodash": "^3.10.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "reactify": "^1.1.1"

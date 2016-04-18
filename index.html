@@ -3,8 +3,43 @@
     <head>
         <meta charset="utf-8">
         <title>RealTime News Voting App using ReactJS and Firebase</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <style media="screen">
+            .form-control, .btn, .badge{
+                border-radius: 0;
+            }
+            body{
+                background: #f2f2f2;
+            }
+            #feedForm{
+                display: none;
+            }
+        </style>
     </head>
     <body>
 
+        <div class="jumbotron text-center">
+            <h3>Vote This</h3>
+        </div>
+
+    <!--
+    Mock view of react components based on UI
+     <Feed>
+        <ShowAddButton/>
+        <FeedForm/>
+
+        <FeedList>
+            <FeedItem/>
+        </FeedList>
+    </Feed>
+    -->
+
+    <div id="app">
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="dist/js/main.js"></script>
     </body>
 </html>
